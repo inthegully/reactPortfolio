@@ -1,0 +1,20 @@
+.projects-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.project-title {
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 100px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.subproject-title {
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}

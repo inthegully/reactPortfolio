@@ -1,0 +1,43 @@
+.about-container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  border-bottom: 1px solid #e3e3e3;
+}
+.me-split {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.portfolio-pic-div {
+  width: 80%;
+
+  @media (width >= 700px) and (width <= 900px) {
+    width: 60%;
+  }
+
+  @media (min-width: 901px) {
+    width: 40%;
+  }
+}
+.portfolio-pic {
+  border-radius: 50%;
+}
+.about-blurb-div {
+  width: 80%;
+
+  @media (min-width: 901px) {
+    width: 40%;
+  }
+}
