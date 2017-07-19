@@ -1,6 +1,23 @@
+a {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: #858585;
+}
 .development-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+.project-container {
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.project-title {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
 }

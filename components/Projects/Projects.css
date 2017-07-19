@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   background-color: white;
 }
-.project-title {
+.projects-title {
   width: 100%;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
@@ -17,4 +17,5 @@
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
   text-align: center;
+  text-decoration: underline;
 }
