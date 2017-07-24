@@ -3,11 +3,15 @@ a {
   font-family: 'Quicksand', sans-serif;
   color: #858585;
 }
-.development-container {
+.development-container, .design-container, .art-container {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: flex-start;
+}
+.art-container {
+  margin-bottom: 100px;
 }
 .project-container {
   display: flex;
@@ -20,4 +24,5 @@ a {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   font-weight: normal;
+  font-size: 23px;
 }
