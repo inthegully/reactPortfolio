@@ -12,7 +12,7 @@ export default class Art extends React.Component {
           <h3 className="project-title">Mandala</h3>
           <img className="project-image" src={Mandalaimg} alt="Mandala"/>
           <p className="project-description">
-            Mandala origianly drawn with ink and then recreated digitally in Illustrator.
+            Mandala originally drawn with ink and then recreated digitally in Illustrator.
           </p>
         </div>
         <div className="project-container">

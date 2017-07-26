@@ -36,8 +36,12 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          {head.title.toComponent()}
-          {head.meta.toComponent()}
+          <title>inthegully | Tiffany Fritz</title>
+          <meta
+            name="description"
+            content="Tiffany Fritz | Web Development | Art | Design Portfolio"
+          />
+          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
           <TypographyStyle typography={typography} />
           {css}
           <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet" />
@@ -48,6 +52,16 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-90914431-1', 'auto');
+            ga('send', 'pageview');
+
+          </script>
         </body>
       </html>
     )
