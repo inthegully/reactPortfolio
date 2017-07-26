@@ -17,8 +17,8 @@ export default class Index extends React.Component {
         </div>
         <div>
           <LogoHouse />
-          <Contact />
           <About />
+          <Contact />
           <Projects />
         </div>
       </div>

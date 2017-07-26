@@ -10,7 +10,6 @@ export default class Contact extends React.Component {
   render () {
     return (
       <div className="contact-container">
-        <h1 className="contact-title">Contact</h1>
         <h2 className="email">inthegullydesign@gmail.com</h2>
         <div className="contact-logos-flex">
           <div>

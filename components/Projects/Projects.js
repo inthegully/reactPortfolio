@@ -9,7 +9,6 @@ export default class Projects extends React.Component {
     return(
       <div className="projects-container">
         <h1 className="projects-title">
-          Projects
         </h1>
         <h2 className="subproject-title">
           Development
