@@ -4,13 +4,23 @@ import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import SandG from '../../images/sandg.png';
 import LnL from '../../images/lnl.png';
-import Spotify from '../../images/spotifyPC.png';
 import DDell from '../../images/DDell.png';
+import Purple from '../../images/Purple.png';
 
 export default class Projects extends React.Component {
   render () {
     return(
       <div className="development-container">
+        <a href="http://www.purple.com/" target="_blank">
+          <div className="project-container">
+            <h3 className="project-title">Purple</h3>
+            <img className="project-image" src={Purple} alt="Purple Mattress Website"/>
+            <p className="project-description">
+              Purple is a billion dollar mattress company. I build and maintain the e-commerce site, including multiple new product launches, writing Ruby scripts for the world's largest Shopify site, implementing tracking and analytics, as well as cross-browser optimization.
+              Using Optimizely, I run A/B tests and have increased conversion rates based on my findings. Currently working on building out the new version of the site using the Craft CMS with Sass, ES6+.
+            </p>
+          </div>
+        </a>
         <a href="http://www.stevenandgillian.com/" target="_blank">
           <div className="project-container">
             <h3 className="project-title">Wedding Website</h3>
@@ -37,16 +47,6 @@ export default class Projects extends React.Component {
             <img className="project-image" src={DDell} alt="Keep dimple dell wild"/>
             <p className="project-description">
               Designed and built nonprofit website for the protection of Dimple Dell Nature Reserve in Sandy, UT.
-            </p>
-          </div>
-        </a>
-        <a href="http://spotifyplaylistcreator.site44.com/" target="_blank">
-          <div className="project-container">
-            <h3 className="project-title">Spotify Playlist Creator</h3>
-            <img className="project-image" src={Spotify} alt="Spotify Playlist Creator"/>
-            <p className="project-description">
-              Playlist creator written in jQuery with AJAX hitting Spotify's API
-              which creates a playlist from the searched artist.
             </p>
           </div>
         </a>
