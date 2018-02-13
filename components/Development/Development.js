@@ -16,14 +16,13 @@ export default class Projects extends React.Component {
             <h3 className="project-title">Purple</h3>
             <img className="project-image" src={Purple} alt="Purple Mattress Website"/>
             <p className="project-description">
-              Purple is a billion dollar mattress company. I build and maintain the e-commerce site, including multiple new product launches, writing Ruby scripts for the world's largest Shopify site, implementing tracking and analytics, as well as cross-browser optimization.
-              Using Optimizely, I run A/B tests and have increased conversion rates based on my findings. Currently working on building out the new version of the site using the Craft CMS with Sass, ES6+.
+              Purple is a billion dollar mattress company. I build and maintain the e-commerce site, including multiple new product launches, writing Ruby scripts for the world's largest Shopify site, and implementing tracking and analytics.
             </p>
           </div>
         </a>
         <a href="http://www.stevenandgillian.com/" target="_blank">
           <div className="project-container">
-            <h3 className="project-title">Wedding Website</h3>
+            <h3 className="project-title">Finklestein Wedding</h3>
             <img className="project-image" src={SandG} alt="Steven and Gillian Wedding Website"/>
             <p className="project-description">
               Designed and created all art for the wedding website of Steve and Gillian
